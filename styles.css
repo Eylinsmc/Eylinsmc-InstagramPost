@@ -1,0 +1,82 @@
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.post{
+    background: white;
+    width: 410px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0 12px 8px;
+}
+
+.profile {
+    display: flex;
+}
+
+.fa-html5 {
+    font-size: 23px;
+    padding-top: 5px;
+}
+
+.name p{
+    font-size: 13px;
+}
+
+.fa-ellipsis-vertical {
+    font-size: 30px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+main {
+    width: 410px;
+    margin:0 auto;
+}
+
+img {
+    width: 410px;
+    height: 315px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.icons-right{
+    padding-right: 8px;
+}
+
+.likes {
+    width: 410px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.likes p {
+    font-size: 13px;
+}
